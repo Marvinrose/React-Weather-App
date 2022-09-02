@@ -6,7 +6,7 @@ function App() {
           <input
             className="form-control me-2"
             type="search"
-            placeholder="Enter a city at"
+            placeholder="Enter a city"
             aria-label="Search"
             id="city-input"
           />
