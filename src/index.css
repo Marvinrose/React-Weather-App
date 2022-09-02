@@ -9,7 +9,6 @@
 .container {
   max-width: 600px;
   margin: 20px auto;
-  padding: 25px;
 }
 #temperature {
   font-size: 60px;
