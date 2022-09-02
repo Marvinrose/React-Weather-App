@@ -1,4 +1,3 @@
-
 import "./App.css";
 
 function App() {
@@ -9,7 +8,7 @@ function App() {
           <input
             className="form-control me-2"
             type="search"
-            placeholder="Enter a city"
+            placeholder="Enter a city at"
             aria-label="Search"
             id="city-input"
           />
