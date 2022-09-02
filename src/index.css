@@ -58,10 +58,7 @@ ul li {
 
 .weather-app {
   border: 7px solid #ffcb1b;
-  padding-top: 25px;
-  padding-bottom: 25px;
-  padding-left: 25px;
-  padding-right: 25px;
+  padding: 25px;
   margin: 20px auto;
   border-radius: 10px;
   margin-bottom: 0;
