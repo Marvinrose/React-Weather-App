@@ -11,11 +11,12 @@
   margin: 20px auto;
 }
 #temperature {
-  font-size: 60px;
+  font-size: 50px;
   font-family: "Courier New", Courier, monospace;
-  line-height: 1;
+  line-height: 1.4;
+  padding-left: 5px;
 }
-.col-6 img {
+.icon {
   vertical-align: bottom;
 }
 #celsius-link {
@@ -75,16 +76,13 @@ ul li {
 .my-link a {
   text-decoration: none;
 }
-.btn-outline-success {
+
+.search-button {
+  background-color: #ffcb1b;
   border: 2px solid #ffcb1b;
   color: #fff;
 }
-.btn-outline-success:default {
-  background-color: #ffcb1b;
-}
-.btn-outline-success:hover {
-  background-color: #ffcb1b;
-  color: #fff;
+.search-button:hover {
   border: 2px solid #ffcb1b;
 }
 .border-section {
