@@ -32,64 +32,7 @@ export default function WeatherInfo(props) {
             </li>
           </ul>
         </div>
-        <h5>Next 5 days</h5>
-        <div className="row border-section" id="forecast">
-          <div className="col">
-            <p className="date">Mon - Thur </p>
-            <img
-              width="42"
-              height=""
-              id="icon"
-              src="http://openweathermap.org/img/wn/50d@2x.png"
-              alt=""
-            />
-            <p> 12° 18° </p>
-          </div>
-          <div className="col">
-            <p className="date">Mon - Thur </p>
-            <img
-              width="42"
-              height=""
-              id="icon"
-              src="http://openweathermap.org/img/wn/50d@2x.png"
-              alt=""
-            />
-            <p> 12° 18° </p>
-          </div>
-          <div className="col">
-            <p className="date">Mon - Thur </p>
-            <img
-              width="42"
-              height=""
-              id="icon"
-              src="http://openweathermap.org/img/wn/50d@2x.png"
-              alt=""
-            />
-            <p> 12° 18° </p>
-          </div>
-          <div className="col">
-            <p className="date">Mon - Thur </p>
-            <img
-              width="42"
-              height=""
-              id="icon"
-              src="http://openweathermap.org/img/wn/50d@2x.png"
-              alt=""
-            />
-            <p> 12° 18° </p>
-          </div>
-          <div className="col">
-            <p className="date">Mon - Thur </p>
-            <img
-              width="42"
-              height=""
-              id="icon"
-              src="http://openweathermap.org/img/wn/50d@2x.png"
-              alt=""
-            />
-            <p> 12° 18° </p>
-          </div>
-        </div>
+        
       </div>
     </div>
   );
