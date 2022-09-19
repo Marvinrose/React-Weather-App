@@ -11,13 +11,13 @@
   margin: 20px auto;
 }
 #temperature {
-  font-size: 45px;
-  font-family: "Courier New", Courier, monospace;
-  line-height: 1.1;
-  padding-left: 5px;
+  font-size: 42px;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1;
+  padding-left: 3px;
 }
 .icon {
-  vertical-align: bottom;
+  vertical-align: top;
 }
 #celsius-link {
   font-weight: 600;
@@ -46,8 +46,9 @@
 }
 #units {
   position: relative;
-  font-size: 18px;
+  font-size: 15px;
   top: -20px;
+  padding-left: 2px;
 }
 
 a {
@@ -56,7 +57,7 @@ a {
 
 ul li {
   list-style-type: none;
-  font-size: 17px;
+  font-size: 15px;
   margin-top: 10px;
   padding-top: 10px;
 }
@@ -86,11 +87,34 @@ ul li {
   border: 2px solid #ffcb1b;
   color: #fff;
 }
+
 .search-button:hover {
   border: 2px solid #ffcb1b;
 }
+
 .border-section {
   text-align: center;
   margin: 0 auto;
   display: flex;
+}
+
+small {
+  font-size: 11px;
+}
+
+.loader {
+  margin-left: 140px;
+  margin-top: 200px;
+}
+
+@media (max-width: 380px) {
+  #units {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 360px) {
+  #units {
+    font-size: 10px;
+  }
 }
