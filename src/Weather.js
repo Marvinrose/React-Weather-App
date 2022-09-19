@@ -41,7 +41,7 @@ export default function Weather(props) {
   if (weatherData.ready) {
     return (
       <div className="container">
-        <div className="weather-app">
+        <div className="weather-app ">
           <form
             className="d-flex"
             onSubmit={handleSubmit}
@@ -57,7 +57,7 @@ export default function Weather(props) {
               autoFocus="on"
               onChange={handleCityChange}
             />
-            <button className="btn  btn-primary" type="submit">
+            <button className="btn shadow btn-primary" type="submit">
               Search
             </button>
           </form>

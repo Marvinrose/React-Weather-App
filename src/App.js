@@ -3,7 +3,7 @@ import Weather from "./Weather";
 
 export default function App(props) {
   return (
-    <div className="App container">
+    <div className="App container ">
       <Weather defaultCity="New York" />
     </div>
   );
