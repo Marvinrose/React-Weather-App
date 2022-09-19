@@ -17,6 +17,7 @@
 }
 .icon {
   vertical-align: top;
+  
 }
 #celsius-link {
   font-weight: 600;
@@ -76,6 +77,7 @@ ul li {
 .my-link {
   font-family: Arial, Helvetica, sans-serif;
 }
+
 .my-link a {
   text-decoration: none;
 }
@@ -88,6 +90,7 @@ ul li {
 
 .search-button:hover {
   border: 2px solid #2979ff;
+  background-color: #2979ff;
 }
 
 .border-section {
