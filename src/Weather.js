@@ -66,10 +66,22 @@ export default function Weather(props) {
         </div>
         <small class="my-link">
           {" "}
-          <a rel="noreferrer" href="https://github.com/Marvinrose">
+          <a
+            rel="noreferrer"
+            target="_blank"
+            href="https://github.com/Marvinrose"
+          >
             Open-source code{" "}
           </a>
-          by Marvinrose
+          by{" "}
+          <a
+            rel="noreferrer"
+            target="_blank"
+            href="https://www.rozzeymarvin.com"
+          >
+            {" "}
+            Marvinrose
+          </a>
         </small>
       </div>
     );
